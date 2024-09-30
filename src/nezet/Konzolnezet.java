@@ -3,7 +3,7 @@ package nezet;
 import java.util.Scanner;
 
 
-public class Konzolnezet {
+public class Konzolnezet extends CuiNezet {
     private static final Scanner sc = new Scanner(System.in);
     
     public void megjelenit(String uzenet) {
